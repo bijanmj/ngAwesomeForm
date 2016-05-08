@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "ngAwesomeForm demo",
+  "main": "app.js",
+  "author": "Bijan Mahjani",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "path": "^0.12.7"
+  }
+}

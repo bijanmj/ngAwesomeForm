@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+	<header>
+		<title>ngAwesomeForm</title>
+		<link rel="stylesheet" href="ngAwesomeForm.css">
+	</header>
+
+	<body ng-app="myApp">
+		<div style="width:40%; position: relative; top: 2em; left:2em; border: solid 1px #CCC; padding:1em;">
+
+			<form name="myForm" 
+				ng-awesome-form="testAwesomeForm" 
+				model-name="person" 
+				loading-icon="img/loading.gif" 
+				error-message-opacity="0.4" 
+				success-message="Thank you for submitting your form" 
+				confirm-message="Are you sure you want to submit this form?">
+
+				<h3>Preview "ngAwesomeForm"</h3>
+				<p>
+					Enter your name: <input name="name" ng-model="person.name">
+					<br> <br>
+					Enter your email: <input name="name" ng-model="person.email">
+				</p>
+				<p>
+					Click on the Submit button to preview ngAwesomeForm.
+				</p>
+				<p>
+					<button>Submit Form</button>
+				</p>
+			</form>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+		<script src="ngAwesomeForm.js"></script>
+	</body>
+</html>

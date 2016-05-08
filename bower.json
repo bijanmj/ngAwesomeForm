@@ -1,0 +1,26 @@
+{
+  "name": "ngAwesomeForm",
+  "main": "ngAwesomeForm.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bijanmj/ngAwesomeForm",
+  "description": "AngularJS directive to submit forms and take care of messages",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "form",
+    "submit",
+    "angularJS"
+  ],
+  "authors": [
+    "Bijan Mahjani"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
